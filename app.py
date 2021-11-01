@@ -5,7 +5,7 @@ from preprocess import preprocess__
 from model_file import get_images
 import random
 st.set_page_config(layout="wide")
-c1, c2= st.columns((1, 3))
+c1, c2= st.columns((1, 2))
 header = st.container()
 dataset_container = st.container()
 # user_input = ""
@@ -13,7 +13,7 @@ dataset_container = st.container()
 
 with header and c1:
     st.title("XKCD Comic fetcher")
-    st.header("Get 1 random XKCD Comic result based on your search")
+    st.header("Get 1 random XKCD Comic!")
     file_name = "xkcd_data.json"
     dataset = preprocess__(file_name)
     user_input = st.text_input("Keyword to look for in comics!")
