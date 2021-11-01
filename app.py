@@ -31,7 +31,7 @@ with c1 :
     
 with c2:
     if(num_of_urls<=0):
-        num_results.text("Sorry that xkcd disappointed you, no search results to make you look cool.") 
+        num_results.text("Sorry that xkcd disappointed you") 
 
     elif(user_input!=""):
         n = random.randint(0,len(image_urls)-1)
