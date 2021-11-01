@@ -17,17 +17,23 @@ with header and c1:
     file_name = "xkcd_data.json"
     dataset = preprocess__(file_name)
     user_input = st.text_input("Keyword to look for in comics!")
+    num_results = st.empty()
 
 with c2:
     image_urls = get_images(dataset, user_input)
     num_of_urls = len(image_urls)
 
+with c1 :
+    if user_input!="":
+        st.text("total search results: " + str(num_of_urls))
+    
+with c2:
     if(num_of_urls<=0):
-        st.text("Sorry that xkcd disappointed you, no search results to make you look cool.") 
+        num_results.text("Sorry that xkcd disappointed you, no search results to make you look cool.") 
 
     elif(user_input!=""):
         n = random.randint(0,len(image_urls)-1)
-        print("num of images is ", n)
+        print("num of images is ", n+1)
         st.image(image_urls[n], width=None)
     #st.text(image_urls)
     
