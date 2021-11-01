@@ -18,7 +18,7 @@ with header and c1:
 
 with c2:
     image_urls = get_images(dataset, user_input)
-    st.text(image_urls)
+    #st.text(image_urls)
     
     if(user_input!=""):
         for i in image_urls:#min(3,len(image_urls))):
