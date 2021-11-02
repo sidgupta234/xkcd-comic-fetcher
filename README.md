@@ -1,7 +1,7 @@
 # XKCD Comic Fetcher
 
 ## Introduction
-Who doesn't love Xkcd comics? They are the most relatable and quirky comics I have come across wrt programming and linguistics. While there are 2500+ of them, won't it be nice to fetch a comic relevant to a scenario and share it with friends? That is exactly what I came up with today.
+Who doesn't love Xkcd comics? They are the most relatable and quirky comics I have come across wrt programming and linguistics. While there are 2500+ of them, won't it be nice to fetch a comic relevant to a scenario and share it with friends? That is exactly what I came up with.
 
 Give a keyword, and get the xkcd comic in response. Hope you like it as much as I enjoyed making it!
 
