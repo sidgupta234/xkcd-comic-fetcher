@@ -51,8 +51,8 @@ with header and c1:
     dataset = preprocess__(file_name)
     user_input = st.text_input("Keyword to look for in comics!")
     num_results = st.empty()
-    print(dataset["link"])
-    print(dataset.head())
+    # print(dataset["link"])
+    # print(dataset.head())
 
 with c2:
     image_urls, image_link_nums, comic_title = get_images(dataset, user_input)
@@ -69,7 +69,7 @@ with c2:
 
     elif(user_input!=""):
         n = random.randint(0,len(image_urls)-1)
-        print("num of images is ", n+1)
+        #print("num of images is ", len(image_urls))
         st.header(comic_title[n])
         st.image(image_urls[n], width=None)
         comic_link = "https://xkcd.com/" + str(image_link_nums[n])

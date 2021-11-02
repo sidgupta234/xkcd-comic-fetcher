@@ -2,7 +2,8 @@ import pandas as pd
 import re
 
 def get_images(dataset, user_input):
-    data_df_required = dataset.dropna().copy()
+    data_df_required = dataset.copy()
+    #print(len(data_df_required))
     #user_input = " " + user_input + " "
     user_input = user_input.lower()
    # data_df_required
