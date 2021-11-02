@@ -15,12 +15,10 @@ Libraries used: Pandas, Streamlit
 ## Run Locally
 1. Fork this repository, (star it as well puhleeez)!
 2. Clone a local copy for your system
-3. Install required libraries using requirements.txt file
+3. Install required libraries using `requirements.txt` file
 4. Run locally in your system using `streamlit run app.py`
 
 ## For doubts, queries, suggestions
-Ping me on [Twitter](https://www.twitter.com/sidgupta234), [Linkedin](https://www.linkedin.com/in/sidgupta234), write me an [e-mail](mailto:siddharthgupta234@gmail.com). 
-
-Also checkout my personal website: [LanguageOfMe](https://www.languageof.me)
+Ping [Siddharth](https://www.languageof.me) on [Twitter](https://www.twitter.com/sidgupta234), [Linkedin](https://www.linkedin.com/in/sidgupta234), or simply write an [e-mail](mailto:siddharthgupta234@gmail.com). 
 
 For suggestions, improvements you can also just raise an issue or request a pull request!
