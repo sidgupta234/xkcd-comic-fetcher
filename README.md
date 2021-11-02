@@ -5,7 +5,7 @@ Who doesn't love Xkcd comics? They are the most relatable and quirky comics I ha
 
 Give a keyword, and get the xkcd comic in response. Hope you like it as much as I enjoyed making it!
 
-Check out the live app: xkcd-fetcher.herokuapp.com
+Check out the live app: [xkcd-fetcher.herokuapp.com](xkcd-fetcher.herokuapp.com)
 
 ## Further details
 Dataset used: [xkcd Comic Dataset](https://www.kaggle.com/ashkave/xkcd-comic-data)
