@@ -13,30 +13,67 @@ dataset_container = st.container()
 # user_input = ""
 #modelTraining = st.container()
 
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed by <a style='text-align: left;' href="https://www.languageof.me/" target="_blank">Siddharth Gupta</a> | 
+All image rights reserved to the very awesome <a style='text-align: center;' href="https://www.xkcd.com/" target="_blank">xkcd</a>
+Under <a style='text-align: center;' href="https://xkcd.com/license.html" target="_blank"> Creative Commons License </a></p>
+</div>
+"""
+st.markdown(footer, unsafe_allow_html=True)
+
 with header and c1:
-    st.title("XKCD Comic fetcher")
-    st.header("Get 1 random XKCD Comic!")
+    st.title("XKCD COMIC FETCHER")
+    st.header("Get 1 random Comic")
     file_name = "xkcd_data.json"
     dataset = preprocess__(file_name)
     user_input = st.text_input("Keyword to look for in comics!")
     num_results = st.empty()
+    print(dataset["link"])
+    print(dataset.head())
 
 with c2:
-    image_urls = get_images(dataset, user_input)
+    image_urls, image_link_nums, comic_title = get_images(dataset, user_input)
     num_of_urls = len(image_urls)
 
 with c1 :
     if user_input!="":
-        st.text("total search results: " + str(num_of_urls))
+        if(num_of_urls>0):
+            st.text("Showing 1 image out of " + str(num_of_urls) + " results")
     
 with c2:
     if(num_of_urls<=0):
-        num_results.text("Sorry that xkcd disappointed you") 
+        num_results.text("No results, Sorry to disappoint you") 
 
     elif(user_input!=""):
         n = random.randint(0,len(image_urls)-1)
         print("num of images is ", n+1)
+        st.header(comic_title[n])
         st.image(image_urls[n], width=None)
+        comic_link = "https://xkcd.com/" + str(image_link_nums[n])
+        st.markdown("Permanent Comic Link to share: "+comic_link, unsafe_allow_html=True)
     #st.text(image_urls)
     
     # if(user_input!=""):
