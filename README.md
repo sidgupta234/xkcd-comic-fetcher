@@ -7,7 +7,7 @@ Give a keyword, and get the xkcd comic in response. Hope you like it as much as 
 
 Live app: [xkcd-fetcher.herokuapp.com](https://xkcd-fetcher.herokuapp.com)
 
-![alt text for screen readers](https://i.ibb.co/FVC7JTd/16055772-91aa521c678c14c585cbae8979208400.png "Picture of xkcd comic")
+![alt text for screen readers](https://i.ibb.co/zfb8qcf/16055772-91aa521c678c14c585cbae8979208400.png "Picture of xkcd comic")
 
 ## Further details
 Dataset used: [xkcd Comic Dataset](https://www.kaggle.com/ashkave/xkcd-comic-data)
