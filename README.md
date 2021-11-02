@@ -8,7 +8,8 @@ Give a keyword, and get the xkcd comic in response. Hope you like it as much as 
 Check out the live app: xkcd-fetcher.herokuapp.com
 
 ## Further details
-Dataset used: [xkcd Comic Dataset](https://www.kaggle.com/ashkave/xkcd-comic-data) 
+Dataset used: [xkcd Comic Dataset](https://www.kaggle.com/ashkave/xkcd-comic-data)
+
 Libraries used: Pandas, Streamlit
 
 ## Run Locally
@@ -19,6 +20,7 @@ Libraries used: Pandas, Streamlit
 
 ## For doubts, queries, suggestions
 Ping me on [Twitter](https://www.twitter.com/sidgupta234), [Linkedin](https://www.linkedin.com/in/sidgupta234), write me an [e-mail](mailto:siddharthgupta234@gmail.com). 
+
 Also checkout my personal website: [LanguageOfMe](https://www.languageof.me)
 
 For suggestions, improvements you can also just raise an issue or request a pull request!
