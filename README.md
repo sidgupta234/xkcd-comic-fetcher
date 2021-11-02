@@ -20,3 +20,5 @@ Libraries used: Pandas, Streamlit
 ## For doubts, queries, suggestions
 Ping me on [Twitter](https://www.twitter.com/sidgupta234), [Linkedin](https://www.linkedin.com/in/sidgupta234), write me an [e-mail](mailto:siddharthgupta234@gmail.com). 
 Also checkout my personal website: [LanguageOfMe](https://www.languageof.me)
+
+For suggestions, improvements you can also just raise an issue or request a pull request!
