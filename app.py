@@ -87,6 +87,15 @@ initial_sidebar_state = 'auto')
 
 ##### Charts #####
 
+##### Media #####
+
+# c1, c2 = st.columns((1, 2))
+
+# with c1:
+#     st.image("https://i.imgur.com/q5xmsD1.png")
+
+
+##### Media #####
 
 # # #from billboard_seaborn import *
 # # # from preprocess import preprocess__
