@@ -1,11 +1,12 @@
 import streamlit as st
+st.set_page_config(page_title='Comic Fetcher', page_icon = "favicon.png", layout = 'wide', initial_sidebar_state = 'auto')
+
 import pandas as pd
 #from billboard_seaborn import *
 from preprocess import preprocess__
 from model_file import get_images
 import random
 #st.set_page_config(layout="wide")
-st.set_page_config(page_title='Comic Fetcher', page_icon = "favicon.png", layout = 'wide', initial_sidebar_state = 'auto')
 c1, c2= st.columns((1, 2))
 header = st.container()
 dataset_container = st.container()
